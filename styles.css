@@ -1,3 +1,4 @@
+/* --------common styles-------- */
 *{
     margin: 0;
     padding: 0;
@@ -5,7 +6,6 @@
 }
 body{
    font-family: 'Poppins', sans-serif;
-   background-color: #045B62;
 }
 main{
     background-color: white;
@@ -26,6 +26,18 @@ a{
     text-decoration: none;
     color: var(--text-color);
 }
+
+button{
+    background-color: var(--button-bgcolor);
+    color: var(--button-color);
+    height: 44px;
+    width: 196px;
+    font-weight: 700;
+    border: none;
+    border-radius: 40px;
+    margin-top: 30px;
+}
+/* -----------header began--------- */
 nav{
     justify-content: space-between;
     font-weight: 900;
@@ -59,16 +71,6 @@ nav a{
 .influencer-photo{
     width: 440px;
     height: 414px;
-}
-button{
-    background-color: var(--button-bgcolor);
-    color: var(--button-color);
-    height: 44px;
-    width: 196px;
-    font-weight: 700;
-    border: none;
-    border-radius: 40px;
-    margin-top: 30px;
 }
 .fa-arrow-right{
     padding-left: 10px;
@@ -125,4 +127,35 @@ button{
     color: var(--button-bgcolor);
     position: relative;
     right: 0;    
+}
+/* ------------popular collection section began---------- */
+/* --------featured section began----------- */
+.featured{
+    border:1px black solid;
+    border-left: none;
+    border-right: none;
+    border-image: linear-gradient(aliceblue,black,aliceblue)1;
+}
+.featured h1{
+    font-size: 1.5em;
+    margin-bottom: 5px;
+}
+.featured img{
+    width: 400px;
+}
+.featured .featured-details{
+    width: 600px;
+}
+.featured-details button{
+    height: 44px;
+    width: 170px;
+    border-radius: 0;
+}
+/* --------featured section completed------- */
+/* -------footer bagan--------- */
+footer{
+    background-color: #0A0826;
+    color: white;
+    text-align: center;
+    padding: 30px 0;
 }
