@@ -85,8 +85,9 @@ nav a{
     font-weight: 600;
 }
 .influencer-photo{
-    width: 440px;
-    height: 414px;
+    background-image: url(images/Circledesign.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
 }
 .fa-arrow-right{
     padding-left: 10px;
@@ -121,18 +122,16 @@ nav a{
 .popular-collection-boxes{
     display: grid;
     grid-template-columns: repeat(3,1fr);
-    grid-gap: 25px;
-    font-size: .7em;
+    grid-gap: 30px;
 }
 .popular-collection-boxes .box{
     box-shadow: rgb(138, 141, 143) 1px 1px 5px .2px;
     padding: 10px;
     border-radius: 10px;
-    width: 270px;
 }
 
 .popular-collection-boxes img{
-    width: 250px;
+    margin: 0 auto;
     height: 256px;
 }
 
@@ -143,13 +142,12 @@ nav a{
     background-color: inherit;
     color: var(--button-bgcolor);
     position: absolute;
-    right: 15%;
+    right: 11.8%;
 }
 .bgless-btn:hover{
     background-color: var(--button-bgcolor);
     color: white;
     position: absolute;
-    right: 15%;
 }
 /* ------------popular collection section began---------- */
 /* --------featured section began----------- */
@@ -205,8 +203,9 @@ footer i{
     .bgless-btn{
         right: 10%;
     }
-    .featured img, .influencer-photo{
+    .featured img, .influencer-photo img{
         width: 100%;
+        margin: 30px auto;
     }
 }
 
